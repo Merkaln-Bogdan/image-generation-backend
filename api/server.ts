@@ -2,7 +2,6 @@ const { connect } = require("mongoose");
 const cors = require("cors");
 const morgan = require("morgan");
 const express = require("express");
-// const errorMiddelware = require("./errors/errorMiddelware.ts");
 const userRoute = require("./routes/image.routes.ts");
 require("dotenv").config();
 
